@@ -31,6 +31,7 @@ python3 shinra_display_ner [ tokensのリスト.txt のパス] \
   
 
 ## 出力結果
+display_ner.htmlを表示すると以下のとおりです。  
 ![image](https://user-images.githubusercontent.com/68231213/118390720-91df0480-b66b-11eb-820e-2ba57f4e0fef.png)
 
 ## Pythonモジュールとして呼び出す
