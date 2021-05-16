@@ -13,10 +13,12 @@ https://explosion.ai/demos/displacy-ent
 ```  
 以下のようにtokenリストとIOB2タグのリストを渡すことでHtmlファイルを出力することができます。  
 **※token.txtとlabel.txtはpickleで保存されていることを想定しています。**
-
+  
+tokens.txt  
 ```txt:tokens.txt
 [['シャネル','は','フランス','の','企業','で','ある'], ['1909','年','パリ','17','区','マルゼルブ','大通り','（fr）','160','番地','に','女性','用','の','帽子','店','を','開業','する']]
 ```
+labels.txt  
 ```txt:labels.txt
 [['B-正式名称','O','B-本拠地国','O','O','O','O'], ['B-設立年','I-設立年','B-創業地','I-創業地','I-創業地','I-創業地','I-創業地','I-創業地','I-創業地','I-創業地','O','B-創業時の事業','I-創業時の事業','I-創業時の事業','I-創業時の事業','I-創業時の事業','O','O','O']]
 ```
@@ -43,7 +45,8 @@ from shinra_display_ner import display_ner
 ```
 
 ### 使用例
-以下のように使います。
+以下のように使います。  
+test.py  
 ```python:test.py
 from shinra_display_ner import display_ner
 
